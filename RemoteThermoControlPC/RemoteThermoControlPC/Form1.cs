@@ -19,7 +19,8 @@ namespace RemoteThermoControlPC
     public partial class Form1 : Form
     {
         static ServiceClient serviceClient;
-        static string connectionString = "HostName=remotecamerahub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=xhuG9TcaieP9s+bNN51KTKy3H73Pw/0Sd8XOyrVJet8=";
+        static string connectionString = "copy it from Azure IoThub portal and paste it";
+	//"HostName=<hostname>.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=<shared access key of the IoThub unit";
         static string iotHubD2cEndpoint = "messages/events";
         static EventHubClient eventHubClient;
         string DeviceID = "RPi2-WinIoT";

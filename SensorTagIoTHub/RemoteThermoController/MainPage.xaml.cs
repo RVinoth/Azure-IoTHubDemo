@@ -72,7 +72,7 @@ namespace RemoteThermoController
         TaskCompletionSource<string> providePinTaskSrc;
         TaskCompletionSource<bool> confirmPinTaskSrc;
         //Azure IoTHub Connection string
-        private const string connectionstring = "HostName=remotecamerahub.azure-devices.net;DeviceId=RPi2-WinIoT;SharedAccessKey=sR1ZUgxHocvPlaj9ktVsDPoVnKo9xEzbAg/CDT3h5DY=";
+        private const string connectionstring = "your connection string"; //"HostName=<Hostname>.azure-devices.net;DeviceId=<Device ID created through APP or Device Explorer>;SharedAccessKey= Shared access key of Device Explorer. Copy from Device Explorer and Paste it here";
        
         // Timer
         private DispatcherTimer ReadSensorTimer;
